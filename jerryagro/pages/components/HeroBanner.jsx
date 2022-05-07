@@ -1,7 +1,8 @@
 import React from 'react'
 import Link from 'next/link';
 
-import { urlFor } from '/lib/client'
+import { urlFor } from '../lib/client'
+import Logo from '../components/img/logo.svg'
 
 function HeroBanner({ heroBanner }) {
     return (
@@ -17,14 +18,14 @@ function HeroBanner({ heroBanner }) {
                 alt="tomatoes"
             />
             <div>
-                <Link href="/product/ID">
+                <Link href={`/product/${heroBanner.product}`}>
                     <button type="button">
-                        BUTTON TEXT
+                        {heroBanner.buttonText}
                     </button>
                 </Link>
                 <div className="desc">
                     <h5>Description</h5>
-                    <p>DESCRIPTION</p>
+                    <p>{heroBanner.desc}</p>
                 </div>
             </div>
         </div>
