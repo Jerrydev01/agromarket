@@ -1,13 +1,21 @@
-import '../styles/globals.css'
-import React from 'react'
+import React from 'react';
+import { Toaster } from 'react-hot-toast';
+import '../styles/globals.css';
 
-import Layout from './components/Layout'
+import Layout from './components/Layout';
+import { StateContext } from '../context/StateContext';
+
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <StateContext>
+
+      <Layout>
+        <Toaster />
+        <Component {...pageProps} />
+      </Layout>
+
+    </StateContext>
 
   )
 }

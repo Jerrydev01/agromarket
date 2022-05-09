@@ -50,7 +50,7 @@ span {
   position: absolute;
   white-space: nowrap;
   will-change: transform;
-  animation: marquee 15s linear infinite;
+  animation: marquee 15s linear infinite alternate;
   width: 180%;
 }
 .track:hover {
@@ -434,7 +434,7 @@ span.text-red {
   transition: 0.3s ease-in-out;
 }
 .product-detail-image:hover {
-  background-color: #f02d34;
+  background-color: rgb(244, 204, 12);
 }
 .small-images-container {
   display: flex;
@@ -450,7 +450,7 @@ span.text-red {
 }
 
 .selected-image {
-  background-color: #f02d34;
+  background-color: rgb(244, 204, 12);
 }
 .reviews {
   color: #f02d34;
@@ -540,7 +540,7 @@ span.text-red {
 }
 .quantity-desc .num {
   border-right: 1px solid gray;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 .quantity-desc .plus {
   color: rgb(49, 168, 49);
@@ -737,7 +737,7 @@ span.text-red {
     font-size: 20px;
   }
   .track {
-    animation: marquee 10s linear infinite;
+    animation: marquee 10s linear infinite alternate;
     width: 550%;
   }
   .success-wrapper,
