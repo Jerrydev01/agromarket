@@ -222,7 +222,7 @@ span.text-red {
   position: relative;
   height: 400px;
   line-height: 1;
-  color: rgb(244, 204, 12);
+  color: #f4cc0c;
   width: 100%;
   margin-top: 120px;
 }
@@ -543,7 +543,7 @@ span.text-red {
   /* font-size: 20px; */
 }
 .quantity-desc .plus {
-  color: rgb(49, 168, 49);
+  color: #31a831;
 }
 
 .maylike-products-wrapper {

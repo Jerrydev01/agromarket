@@ -16,6 +16,9 @@ const Layout = ({ children }) => {
             <main className="main-container">
                 {children}
             </main>
+            <div>
+                <footerBanner />
+            </div>
             <footer>
                 <Footer />
             </footer>
