@@ -10,14 +10,14 @@
 </h2>
 <p align="center">
   AgroMarket is a web app built with agro based market women in mind. I envision it as a platform where local farmers can link their produces to market women with ease thereby reducing food wastage caused by lack of buyers or handlers
-  The first iteration of this website  <a href="#" target="_blank">Coming Soon</a> is built with React/Nextjs and Sanity and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
+  The first iteration of this website  <a href="#" target="_blank">Coming Soon</a> is built with React/Nextjs, flutterwave for payment and Sanity. it will be hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
 <p align="center">
   Current iteration:
   <a href="#" target="_blank">v1</a>
 </p>
 <div align="center">
-  <img alt="Logo" src="https://github.com/Jerrydev01/portfolio/blob/beta/public/img/imgdev1.png?raw=true" width="100%" />
+  <img alt="Logo" src="https://github.com/Jerrydev01/agromarket/blob/master/jerryagro/public/agromarket.png?raw=true" width="100%" />
 </div>
 
 ## About Project (please read!)
@@ -55,7 +55,8 @@ AgroMarket is a web app built with agro based market women in mind. I envision i
    sanity start (to run sanity)
    ```
 
-5. I Recommend watching this video by KevinPowel
+5. Future iteration
+   Warehouse Locations Using Map Api, might just have to create my own warehouse.json file.
    
 
 ## 🎨 Color Reference
