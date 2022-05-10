@@ -3,7 +3,7 @@
   <img alt="Logo" src="https://raw.githubusercontent.com/jerrydev01/portfolio/c03ffbcc5d26dc67a6a884b32cb4aae3cb3d7fdb/public/img/logo.svg" width="100" />
 </div>
 <h1 align="center">
- AgroMarket webb app
+ AgroMarket web app
 </h1>
 <h2 align="center">
  <a href="#" target="_blank">In Progress</a>
@@ -40,7 +40,7 @@ AgroMarket is a web app built with agro based market women in mind. I envision i
    ```
 
 3. Install dependencies
-   Go to my package.json file and copy my dependencies to get simolar version then run
+   Go to my package.json file and copy my dependencies to get similar version then run
 
    ```sh
    npm install --legacy-peer-dev
