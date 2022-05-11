@@ -10,7 +10,7 @@
 </h2>
 <p align="center">
   AgroMarket is a web app built with agro based market women in mind. I envision it as a platform where local farmers can link their produces to market women with ease thereby reducing food wastage caused by lack of buyers or handlers
-  The first iteration of this website  <a href="#" target="_blank">Coming Soon</a> is built with React/Nextjs, flutterwave for payment and Sanity. it will be hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
+  The first iteration of this website  <a href="#" target="_blank">Coming Soon</a> is built with React/Nextjs, paystack for test payment and Sanity. it will be hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
 <p align="center">
   Current iteration:
