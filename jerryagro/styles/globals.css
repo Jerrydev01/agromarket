@@ -173,7 +173,7 @@ span.text-red {
 }
 .hero-banner-image {
   position: absolute;
-  top: 0%;
+  top: -10%;
   right: 15%;
   width: 550px;
   height: 550px;
@@ -285,7 +285,7 @@ span.text-red {
 }
 .cart-container {
   height: 100vh;
-  width: 600px;
+  /* width: 600px; */
   background-color: white;
   float: right;
   padding: 40px 10px;
@@ -412,6 +412,14 @@ span.text-red {
   cursor: pointer;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
+}
+
+.btn-pay {
+  background-color: transparent;
+  border: none;
+  color: white;
+  position: relative;
+  margin-bottom: 5px;
 }
 .btn:hover {
   transform: scale(1.1, 1.1);
@@ -685,7 +693,7 @@ span.text-red {
     height: 350px;
   }
   .cart-container {
-    width: 415px;
+    /* width: 415px; */
     padding: 4px;
   }
   .cart-heading {
@@ -759,5 +767,25 @@ span.text-red {
   .btn-container {
     width: 300px;
     margin: auto;
+  }
+}
+
+/* small screen 600px */
+
+@media screen and (max-width: 500px) {
+  .hero-banner-image {
+    width: 77%;
+    height: 62%;
+    top: 10%;
+    right: 1%;
+  }
+  .hero-banner-container h1 {
+    padding-left: 1rem;
+  }
+  .banner-desc .right h3 {
+    font-size: 30px;
+  }
+  .banner-desc .left p {
+    padding-right: 1rem;
   }
 }

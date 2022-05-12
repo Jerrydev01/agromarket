@@ -15,10 +15,10 @@ function HeroBanner({ heroBanner }) {
             <img
                 className="hero-banner-image"
                 src={urlFor(heroBanner.image)}
-                alt="tomatoes"
+                alt="mega-pack"
             />
             <div>
-                <Link href={`/product/${heroBanner.product}`}>
+                <Link href="/product/mega-pack-sales">
                     <button type="button">
                         {heroBanner.buttonText}
                     </button>
