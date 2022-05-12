@@ -10,7 +10,7 @@
 </h2>
 <p align="center">
   AgroMarket is a web app built with agro based market women in mind. I envision it as a platform where local farmers can link their produces to market women with ease thereby reducing food wastage caused by lack of buyers or handlers
-  The first iteration of this website  <a href="#" target="_blank">Coming Soon</a> is built with React/Nextjs, flutterwave for payment and Sanity. it will be hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
+  The first iteration of this website  <a href="#" target="_blank">Coming Soon</a> is built with React/Nextjs, paystack for test payment and Sanity. it will be hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
 <p align="center">
   Current iteration:
@@ -58,13 +58,3 @@ AgroMarket is a web app built with agro based market women in mind. I envision i
 5. Future iteration
    Warehouse Locations Using Map Api, might just have to create my own warehouse.json file.
    
-
-## 🎨 Color Reference
-
-| Color                    | Hex                                                                 |
-| ------------------------ | ------------------------------------------------------------------- |
-| Yellow                   | ![#f4cc0c](https://via.placeholder.com/10/f4cc0c?text=+) `#f4cc0c` |
-| Dark Green               | ![#02410D](https://via.placeholder.com/10/02410D?text=+) `#02410D`  |
-| shade of Red             | ![#F02D34](https://via.placeholder.com/10/F02D34?text=+) `#F02D34`  |
-| Tints of Gray            | ![#CFCFCD](https://via.placeholder.com/10/CFCFCD?text=+) `#CFCFCD`  |
-| White                    | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) `#ffffff`  |
