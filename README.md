@@ -58,13 +58,3 @@ AgroMarket is a web app built with agro based market women in mind. I envision i
 5. Future iteration
    Warehouse Locations Using Map Api, might just have to create my own warehouse.json file.
    
-
-## 🎨 Color Reference
-
-| Color                    | Hex                                                                 |
-| ------------------------ | ------------------------------------------------------------------- |
-| Yellow                   | ![#f4cc0c](https://via.placeholder.com/10/f4cc0c?text=+) `#f4cc0c` |
-| Dark Green               | ![#02410D](https://via.placeholder.com/10/02410D?text=+) `#02410D`  |
-| shade of Red             | ![#F02D34](https://via.placeholder.com/10/F02D34?text=+) `#F02D34`  |
-| Tints of Gray            | ![#CFCFCD](https://via.placeholder.com/10/CFCFCD?text=+) `#CFCFCD`  |
-| White                    | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) `#ffffff`  |
