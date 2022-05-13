@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { urlFor } from '../lib/client'
 
 function FooterBanner({ footerBanner: {
-    discount, image, largeText1, largeText2, saleTime, product, buttonText, smallText, midText, desc
+    discount, image, largeText1, largeText2, saleTime, buttonText, smallText, midText, desc
 } }) {
     return (
         <div className="footer-banner-container">
