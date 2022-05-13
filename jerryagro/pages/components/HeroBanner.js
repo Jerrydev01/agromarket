@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link';
 
 import { urlFor } from '../lib/client'
-import Logo from '../components/img/logo.svg'
+
 
 function HeroBanner({ heroBanner }) {
     return (
