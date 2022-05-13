@@ -1,13 +1,13 @@
 import React from 'react'
 import { useRef } from 'react'
 import Link from 'next/link'
-import { AiOutlineMinus, AiOutlinePlus, AiOutlineLeft, AiOutlineShopping, AiOutlineShoppingCart } from 'react-icons/ai'
+import { AiOutlineMinus, AiOutlinePlus, AiOutlineLeft, AiOutlineShoppingCart } from 'react-icons/ai'
 import { TiDeleteOutline } from 'react-icons/ti'
-import toast from 'react-hot-toast'
+// import toast from 'react-hot-toast'
 import { urlFor } from '../lib/client'
-import { useStateContext } from '../../context/StateContext'
+import { useStateContext } from '../context/StateContext'
 
-import Paystack from '../components/Paystack'
+import Paystack from './Paystack'
 
 const Cart = () => {
     const cartRef = useRef();

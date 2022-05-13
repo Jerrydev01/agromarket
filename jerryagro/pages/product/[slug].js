@@ -2,10 +2,10 @@ import React from 'react';
 
 import { useState } from 'react'
 
-import Paystack from '../components/Paystack'
+
 
 import { client, urlFor } from '../../lib/client';
-import Product from '.././components/Product'
+import Product from '../Product'
 import { useStateContext } from '../../context/StateContext'
 import { AiOutlineMinus, AiOutlinePlus, AiFillStar, AiOutlineStar } from 'react-icons/ai'
 
@@ -120,7 +120,7 @@ export const getStaticPaths = async () => {
 
     return {
         paths,
-        fallback: 'false'
+        fallback: false,
     }
 }
 export const getStaticProps = async ({ params: { slug } }) => {

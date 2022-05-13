@@ -1,9 +1,9 @@
 // this page renders the template to the browser window
 import React from 'react';
 
-import HeroBanner from './components/HeroBanner';
-import FooterBanner from './components/FooterBanner';
-import Product from './components/Product';
+import HeroBanner from './HeroBanner';
+import FooterBanner from './FooterBanner';
+import Product from './Product';
 import { client } from '../lib/client';
 
 const HomePage = ({ products, bannerData }) => {

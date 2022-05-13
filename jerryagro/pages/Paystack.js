@@ -1,6 +1,6 @@
 import React from 'react';
 import { usePaystackPayment } from 'react-paystack';
-import { useStateContext } from '../../context/StateContext'
+
 
 
 const config = {
@@ -24,7 +24,6 @@ const onClose = () => {
 
 const Paystack = () => {
     const initializePayment = usePaystackPayment(config);
-    const { totalQuantities, totalPrice, setShowCart, cartItems, toggleCartItemQuantity, onRemove } = useStateContext();
     return (
         <div>
             <button className="btn-pay" onClick={() => {
